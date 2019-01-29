@@ -252,5 +252,4 @@ class WalletManager(Pointer):
 
 
 if __name__ == '__main__':
-    x = Recommend()
-    x.recommend_friends_to_earn_points()
+    Recommend.recommend_friends_to_earn_points()

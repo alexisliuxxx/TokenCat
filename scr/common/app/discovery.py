@@ -14,7 +14,7 @@ class News(object):
 
     @staticmethod
     def share_news():
-        """分享资讯 直接掉用了我的模块的 分享tokencat功能，并使用次功能实现分享资讯"""
+        """分享资讯 直接掉用了我的模块的 分享tokenCat功能，并使用次功能实现分享资讯"""
         Pointer.discovery_page()
         Recommends = __import__("scr.common.app.me.Recommend", fromlist=True)
         # from scr.common.app.me import Recommend

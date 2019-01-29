@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="748f4a98-79ed-44e3-b1a2-423002cd23a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controller/mains.py" beforeDir="false" afterPath="$PROJECT_DIR$/Controller/mains.py" afterDir="false" />
+    <list default="true" id="748f4a98-79ed-44e3-b1a2-423002cd23a9" name="Default Changelist" comment="设置静态方法">
+      <change beforePath="$PROJECT_DIR$/datas/sql_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/datas/sql_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/common/app/discovery.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr/common/app/discovery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/common/app/me.py" beforeDir="false" afterPath="$PROJECT_DIR$/scr/common/app/me.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scr/data.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,18 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="company" type="feb32156:DbDataSourceImpl" />
+        <item name="TokenCat_test" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TokenCat_test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="TokenCat_test" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="eos: schema" type="76f4a085:MysqlImplModel$Schema" />
       </path>
     </expand>
     <select />
@@ -74,11 +87,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scr/common/app/me.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="193" column="22" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
+            <state relative-caret-position="2412">
+              <caret line="206" column="40" lean-forward="true" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://bb515ca5-2558-4848-91cb-56e24d2b9c79/schema/eos/table/sms">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -88,28 +110,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/datas/sql_data.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scr/common/app/wallet.py">
+        <entry file="file://$PROJECT_DIR$/datas/sql_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-447">
+              <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scr/common/app/tokcat.py">
+        <entry file="file://$PROJECT_DIR$/scr/common/app/discovery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="807">
-              <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="215">
+              <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -189,18 +206,18 @@
         <option value="$PROJECT_DIR$/scr/common/app/news.py" />
         <option value="$PROJECT_DIR$/tloos/weditor.py" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/ce10f1e5-3069-4187-93ae-8ac3a53ebc69/console.sql" />
-        <option value="$PROJECT_DIR$/scr/common/app/me.py" />
         <option value="$PROJECT_DIR$/scr/common/app/wallet.py" />
         <option value="$PROJECT_DIR$/config/devices.ini" />
         <option value="$PROJECT_DIR$/scr/common/app/tokcat.py" />
         <option value="$PROJECT_DIR$/test_case/tokencat_case.py" />
         <option value="$PROJECT_DIR$/test_run.py" />
         <option value="$PROJECT_DIR$/test_case/me_case.py" />
-        <option value="$PROJECT_DIR$/scr/common/app/discovery.py" />
         <option value="$PROJECT_DIR$/Controller/mains.py" />
         <option value="$PROJECT_DIR$/scr/data.py" />
         <option value="$PROJECT_DIR$/datas/public_data.py" />
         <option value="$PROJECT_DIR$/datas/sql_data.py" />
+        <option value="$PROJECT_DIR$/scr/common/app/discovery.py" />
+        <option value="$PROJECT_DIR$/scr/common/app/me.py" />
       </list>
     </option>
   </component>
@@ -221,6 +238,11 @@
             <path>
               <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
               <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
@@ -258,12 +280,35 @@
               <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
               <item name="scr" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="admin_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
+              <item name="scr" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
               <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
+              <item name="scr" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="management_system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TokenCat" type="462c0819:PsiDirectoryNode" />
+              <item name="tloos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TokenCat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -439,6 +484,7 @@
       <workItem from="1548733378829" duration="1354000" />
       <workItem from="1548743628473" duration="12167000" />
       <workItem from="1548771927835" duration="1520000" />
+      <workItem from="1548773697988" duration="278000" />
     </task>
     <task id="LOCAL-00001" summary="新增积分系统，钱包模块优化">
       <created>1547799843396</created>
@@ -546,7 +592,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117647000" />
+    <option name="totallyTimeSpent" value="117925000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -559,13 +605,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.16950959" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.17110874" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.4978678" weight="0.39914164" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.2553305" side_tool="true" visible="true" weight="0.31008583" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.2553305" side_tool="true" visible="true" weight="0.13412017" />
       <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49840087" weight="0.32939914" />
       <window_info anchor="bottom" id="Python Console" order="4" weight="0.32939914" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
@@ -577,7 +624,7 @@
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" sideWeight="0.49840087" weight="0.16094421" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.16094421" />
-      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.24040511" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.16204691" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="SciView" order="2" weight="0.015991472" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
@@ -773,19 +820,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scr/common/app/discovery.py">
+    <entry file="file://$PROJECT_DIR$/scr/common/app/wallet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scr/common/app/tokcat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scr/data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="-162">
+          <caret line="7" column="12" selection-end-line="41" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/public_data.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datas/sql_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="9" column="50" lean-forward="true" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scr/common/app/discovery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scr/common/app/me.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2412">
+          <caret line="206" column="40" lean-forward="true" selection-start-line="206" selection-start-column="40" selection-end-line="206" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -796,39 +883,6 @@
           <filtering enabled="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scr/common/app/tokcat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="161" column="14" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scr/common/app/wallet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scr/common/app/me.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="193" column="22" selection-start-line="193" selection-start-column="22" selection-end-line="193" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/public_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/datas/sql_data.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
