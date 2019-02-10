@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+
 from scr.common.app.tokcat import NotLoggedIn
 from scr.common.app.tokcat import HasLogged
 import unittest

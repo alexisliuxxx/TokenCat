@@ -1,6 +1,9 @@
+# -*- coding:utf-8 -*-
+
+
 import os
-import uiautomator2
 import time
+import uiautomator2
 import warnings
 
 
@@ -16,12 +19,12 @@ class BasePages(object):
 
             if clear:
                 self.devices.app_clear("com.x.wallet.debug")
+            self.devices.app_start("com.x.wallet.debug")
             if clear:
                 # 允许权限
                 self.devices.implicitly_wait(5)
                 self.devices(resourceId="com.android.packageinstaller:id/permission_allow_button").click()
                 self.devices(resourceId="com.android.packageinstaller:id/permission_allow_button").click()
-            self.devices.app_start("com.x.wallet.debug")
             print(self.devices.device_info)
         except RuntimeError as e:
             error = e.args[0]
@@ -36,13 +39,12 @@ class BasePages(object):
 
     def back_home_pages(self):
         """ 返回到首页（最顶层目录） """
-        home_view = "no"
-        while home_view == "no":
+        while True:
             if self.devices(resourceId="com.x.wallet.debug:id/navigation_me").exists:
                 break
             else:
                 self.devices.press('back')
-                time.sleep(5)
+                time.sleep(3)
 
     def me_page(self):
         """ 进入我的模块 """

@@ -8,18 +8,20 @@ class CloudWallet(object):
     def login(
             phone_number=13267122772,
             verification_code=input("verification_code:"),
-            invitation_code=123456):
+            invitation_code=""):
         """
         登录云钱包
         :param phone_number:    手机号（登录所需的账号）
         :param verification_code:   短信验证码
         :param invitation_code:     邀请码，首次使用邀请码可获得额外积分
         """
+        Pointer.me_page()       # 进入到me页才能操作
         Pointer.devices(
             resourceId="com.x.wallet.debug:id/tv_user_account").click()
         Pointer.devices(text="请输入手机号码").set_text(phone_number)
         Pointer.devices(text="请输入验证码").set_text(verification_code)
-        Pointer.devices(text='填写好友邀请码领积分').set_text(invitation_code)
+        if invitation_code:
+            Pointer.devices(text='填写好友邀请码领积分').set_text(invitation_code)
         Pointer.devices.press('back')      # 关闭输入键盘的操作
         Pointer.devices(resourceId="com.x.wallet.debug:id/checkbox").click()
         Pointer.devices(resourceId="com.x.wallet.debug:id/btn_login").click()
@@ -56,10 +58,10 @@ class PurchaseRecord(object):
 
 
 class Recommend(object):
-    """ 推荐tokencat"""
+    """ 推荐tokenCat"""
     @staticmethod
     def recommend_tokencat_to_friends():
-        """ 推荐tokencat给好友 """
+        """ 推荐tokenCat给好友 """
         Pointer.devices(
             resourceId="com.x.wallet.debug:id/ccpv_share_app").click()
         Pointer.devices(text="文件传输助手").click()
@@ -68,7 +70,7 @@ class Recommend(object):
 
     @staticmethod
     def recommend_friends_to_earn_points(xml=u"邀请好友赚积分", select="text"):
-        """ 我的界面右上角分享tokencat """
+        """ 我的界面右上角分享tokenCat """
         mode = [
             "com.x.wallet.debug:id/tv_friend_wechat",       # 微信好友
             "com.x.wallet.debug:id/tv_friend_circle",       # 朋友圈

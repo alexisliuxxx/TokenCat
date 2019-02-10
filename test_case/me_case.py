@@ -1,3 +1,5 @@
+# -*- coding:utf-8 -*-
+
 import unittest
 from scr.common.app.me import *
 
